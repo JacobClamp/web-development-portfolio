@@ -1,109 +1,137 @@
-# web-development-portfolio
-A collection of front-end development projects build while learning HTML, CSS and JavaScript
+# Web Development Portfolio
 
+A collection of front-end development projects built while learning HTML, CSS and JavaScript.
 
+---
 
-My Projects
+## About Me
 
+Hi! I'm Jacob, a self-taught front-end developer currently learning HTML, CSS and JavaScript.
 
-01 – The Corner Brew 
+This repository documents my progress as I build increasingly complex websites from scratch. Each project represents another step in my learning journey and demonstrates how my skills have developed over time.
 
--- Description --
-A responsive coffee shop landing page designed to practise HTML structure, semantic elements and modern CSS layouts.
+---
 
+## Projects
 
--- Skills Practised --
-Semantic HTML
-Flexbox
-Responsive layouts
-Navigation bars
-Hero sections
-Cards
-Contact forms
-Images and backgrounds
+### 01 – The Corner Brew
 
+**Description**
 
--- What I Learned --
-How to structure larger websites using semantic HTML.
-How Flexbox can be used to build responsive layouts.
-Creating reusable card layouts.
-Working with spacing, typography and colour palettes.
-Building a complete multi-section landing page.
+A responsive coffee shop landing page designed to practise semantic HTML, Flexbox and modern CSS layouts.
 
+**Skills Practised**
 
+- Semantic HTML
+- CSS Flexbox
+- Responsive layouts
+- Navigation bars
+- Hero sections
+- Card layouts
+- Contact forms
+- Images and backgrounds
 
-02 – GreenEdge Gardening 🌿
+**What I Learned**
 
--- Description -- 
+- How to structure larger websites using semantic HTML.
+- How Flexbox can be used to build responsive layouts.
+- Creating reusable card layouts.
+- Improving spacing, typography and colour palettes.
+- Building a complete multi-section landing page.
+
+---
+
+### 02 – GreenEdge Gardening
+
+**Description**
+
 A modern business website for a gardening company with multiple sections designed to improve my layout and responsive design skills.
 
+**Skills Practised**
 
--- Skills Practised -- 
-Responsive design
-Flexbox
-CSS organisation
-Forms
-Buttons
-Cards
-Multi-section layouts
+- Responsive design
+- CSS Flexbox
+- CSS organisation
+- Forms
+- Buttons
+- Card layouts
+- Multi-section page layouts
 
+**What I Learned**
 
--- What I Learned --
-Writing cleaner CSS.
-Better folder organisation.
-Making websites work across different screen sizes.
-Improving spacing and visual hierarchy.
-Creating layouts that feel more professional.
+- Writing cleaner and more organised CSS.
+- Better folder and project organisation.
+- Making websites work across different screen sizes.
+- Improving spacing and visual hierarchy.
+- Creating layouts that feel more professional.
 
+---
 
-03 – Mountain Escape Lodge
+### 03 – Mountain Escape Lodge
 
--- Description --
+**Description**
+
 A promotional website for a mountain lodge focusing on clean layouts, attractive imagery and modern UI design.
 
+**Skills Practised**
 
--- Skills Practised --
-Hero sections
-Split layouts
-Cards
-Responsive sections
-CSS positioning
-Typography
+- Hero sections
+- Split layouts
+- Card layouts
+- Responsive sections
+- CSS positioning
+- Typography
 
+**What I Learned**
 
--- What I Learned --
-Building larger websites more efficiently.
-Creating consistent styling throughout a site.
-Better use of Flexbox.
-Improving code readability.
-Developing cleaner design choices.
+- Building larger websites more efficiently.
+- Creating consistent styling throughout an entire website.
+- Using Flexbox more effectively.
+- Improving code readability and organisation.
+- Developing cleaner design decisions.
 
+---
 
+## Current Learning Goals
 
-My Current Goals
 I'm currently focusing on:
-HTML
-CSS
-Responsive Design
-JavaScript (coming next)
 
+- HTML
+- CSS
+- Responsive Web Design
+- Git & GitHub
+- JavaScript (next step)
 
-Future projects will include:
-JavaScript applications
-API projects
-Interactive websites
-Full-stack projects
+---
 
+## Future Projects
 
+Over the coming months I plan to build:
 
-Technologies
-HTML5
-CSS3
-JavaScript (currently learning)
-Git
-GitHub
-Visual Studio Code
+- JavaScript applications
+- API projects
+- Interactive websites
+- Full-stack web applications
 
+Each new project will build on the skills learned in previous ones.
 
-My Goal
-My aim is to become a professional web developer by consistently building projects and documenting my progress. Every project in this repository represents another step in my learning journey.
+---
+
+## Technologies
+
+Current technologies I use:
+
+- HTML5
+- CSS3
+- JavaScript (currently learning)
+- Git
+- GitHub
+- Visual Studio Code
+
+---
+
+## My Goal
+
+My aim is to become a professional front-end developer by consistently building projects, improving my coding skills and documenting my progress.
+
+This repository showcases my learning journey and demonstrates how my skills develop with each completed project.
