@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+header{
+    background-color: #2E2E2E ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style-type: none;
+    margin-top: 10px;
+    
+}
+header h1{
+    border-bottom: 2px solid #4E6A52 ;
+    color: whitesmoke;
+
+
+}
+header a{
+    color: whitesmoke;
+    border-bottom: 2px solid #4E6A52 ;
+    text-decoration: none; 
+}
+.hero{
+    
+    min-height: 800px;
+    background:
+linear-gradient(
+rgba(0,0,0,.45),
+rgba(0,0,0,.45)
+),
+url("images/winter-vacation-holiday-wooden-house-mountains-covered-with-snow-blue-sky-skis-front-house.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    
+    
+}
+
+.hero-title{
+    color: whitesmoke ;
+    font-size:79px;
+    margin-top: 60px;
+    
+
+}
+
+.hero-txt{
+    color: white;
+    font-size:30px;
+    margin-top: 30px;
+    width: 80%;
+    align-items: center;
+}
+.hero-btn{
+    background-color: #4E6A52;
+    padding: 30px 100px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    margin-top: 60px;
+}
+.hero-btn:hover{
+    opacity: 0.9;
+}
+.about{
+    background-color: #f8f6f2 ;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    gap: 150px;
+}
+.abt-left{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+}
+.about img{
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.12);
+}
+
+
+.abt-left h2{
+    font-size: 40px;
+    
+}
+.abt-right{
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+    padding: 20px;
+    justify-content: flex-start;
+    margin-top:135px;
+    width: 80%;
+}
+.abt-right p{
+    font-size: 25px;
+    line-height: 1.5;
+    
+}
+.abt-list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 25px;
+    gap: 10px;
+    line-height: 1.5;
+    margin-top: 20px;
+    align-items: flex-start;
+    color: black;
+}
+
+.cabins{
+    background-color: #E8DFD4 ;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.cabins h2{
+    font-size: 40px;
+}
+.card-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 50px;
+}
+.card{
+    background-color: seashell ;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15px;
+    border-radius: 5px;
+    line-height: 1.5;
+    min-height: 600px;
+    border: 2px solid black;
+}
+.card h3{
+    border-bottom: 2px solid #4E6A52 ;
+}
+.card img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+}
+.card-btn{
+    background-color: #4E6A52;
+    border: none;
+    padding: 20px 60px;
+    border-radius: 20px;
+    color: white;
+}
+.activities{
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.activities h2{
+    font-size: 40px;
+}
+.activities-wrap{
+    display: flex;
+    padding: 20px;
+}
+.activity{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.activity img{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+}
+.activity h3{
+    font-size: 35px;
+}
+.activity-txt-wrap{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 30px;
+    gap: 20px;
+}
+.reviews{
+    display: flex;
+    padding: 70px;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.reviews h2{
+    font-size: 40px;
+}
+.review-wrap{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    gap: 20px;
+    justify-content: space-evenly;
+    ;
+}
+.review-card{
+    display: flex;
+    flex-direction: row;
+    background-color: white ;
+    padding: 10px;
+    align-items: center;
+    gap: 20px;
+    max-width: 400px;
+    border-radius: 20px;
+}
+.review-card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+.review-card h2{
+    border-bottom: 2px solid #4E6A52 ;
+    font-size: 20px;
+}
+.cta{
+    padding: 30px;
+  
+}
+.cta h2{
+    font-size: 40px;
+
+}
+.cta-text-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;   
+   
+}
+.cta-txt{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    gap: 20px;
+   
+   justify-content: center;
+}
+.cta-txt p{
+    color: black;
+    font-size: 20px;
+  
+}
+.cta-img img{
+    width: 600px;
+    height: 400px;
+    border-radius: 40px;
+}
+.cta-txt button{
+    padding: 30px;
+    border-radius: 30px;
+    font-size: 19px;
+    background-color: #4E6A52;
+    color: white;
+}
+footer{
+}
+.footer-wrap{
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+    border-top: 5px solid white;
+    width: 100%;
+    background-color: #2E2E2E ;
+    justify-content: space-around;
+    line-height: 1.6;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+}
+.address h3{
+    font-size: 30px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.links p{
+    font-size: 30px;
+}
+.links ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 5px;
+    color: white;
+}
+.links  a{
+    color: white;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+}
+.social-header {
+    font-size: 30px;
+    
+}
+.socials a{
+    color: white;
+}
+.footer-form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 250px;
+    color: white;
+}
+.footer-form h3{
+    font-size: 30px;
+}
+.footer-form button{
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #4E6A52;
+    color: white;
+}
+.final-footer-row{
+    padding: 15px;
+    background-color: #141313 ;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
