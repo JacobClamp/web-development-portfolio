@@ -35,7 +35,7 @@ li a:hover{
     font-size: 20px;
 }
 ul button{
-    background-color: rgb(173, 216, 42);
+    background-color: rgb(197, 245, 56);
     padding: 10px 30px;
     border-radius: 20px;
     color: black;
@@ -65,7 +65,7 @@ ul button{
     padding: 20px;
     min-width: 150px;
     border-radius: 80px;
-    background-color: rgb(173, 216, 42);
+    background-color: rgb(197, 245, 56);
 }
 .hero-btn-wrap button:hover{
     font-size: 20px;
@@ -92,5 +92,62 @@ ul button{
     gap: 25px;
 }
 .about-fcs{
+    color: rgb(197, 245, 56);
+}
+.skills{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.skill-top{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    gap: 25px;
+    color: #F8FAFC;
+    line-height: 1.8
+}
+
+.skill-card-top-row{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+.card{
+    display: flex;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b283e;
+    font-size: 20px;
+    border: 1px solid white;
+    opacity: 0.8;
+}
+.card-soon{
+    display: flex;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b283e;
+    font-size: 20px;
+    border: 1px solid white;
+    opacity: 0.8;
+    color: white;
+
+}
+.skills-card-bottom-row{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    color: white;
+}
+.current-skill{
+    display: flex;
     color: rgb(197, 245, 56);
 }
