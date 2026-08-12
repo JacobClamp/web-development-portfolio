@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #0F172A;
+    
     font-family:'Courier New', Courier, monospace
+}
+body{
+    background-color: #0F172A;
+
 }
 header{
     display: flex;
@@ -186,7 +190,7 @@ ul button{
     border-radius: 20px;
 }
 .project-card-ul{
-    background-color: red;
+    
 }
 .card-btn-wrap{
     display: flex;
@@ -212,5 +216,79 @@ ul button{
 .card-btn-right:hover{
     
 }
+
+
+.learning-journey{
+    padding: 40px;
+
+}
+.journey-header{
+    margin-bottom: 60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+
+}
+.timeline{
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: rgb(197, 245, 56);
+    
+}
+.timeline-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    line-height: 1.4;
+}
+.timeline::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    z-index: 0;
+}
+.timeline-item::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #dfff00;
+    top: 40px;
+    z-index: 2;
+}
+.timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    z-index: 1;
+}
+.timeline-item.left {
+    left: 0;
+}
+.timeline-item.right {
+    left: 50%;
+}
+.timeline-item.left::after {
+    right: -8px;
+}
+.timeline-item.right::after {
+    left: -6px;
+}
+
+
+
+
+
+
+
+
 
 
