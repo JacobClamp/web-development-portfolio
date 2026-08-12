@@ -283,6 +283,35 @@ ul button{
     left: -6px;
 }
 
+.dev-workflow{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+    color: white;
+    
+}
+.workflow-wrap{
+    display: flex;
+    gap: 20px;
+    flex-direction: row; 
+}
+.workflow-card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+.workflow-num{
+    padding:25px;
+    border-radius: 260px;
+    font-size: 25px;
+    background-color: #dfff00;
+    color: black;
+}
 
 
 
