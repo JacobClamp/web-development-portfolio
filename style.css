@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    scroll-behavior: smooth;
     font-family:'Courier New', Courier, monospace
 }
 body{
-    background-color: #0F172A;
+    background-color: #0b152b;
+    
 
 }
 header{
@@ -14,12 +15,15 @@ header{
     padding: 40px;
     justify-content: space-between;
     color: white;
+    position: sticky;
+    top: 0;
+    z-index: 3;
     
 }
 nav{
-    display: flex;
-    
-    
+    display: flex; 
+    background-color: #0F172A;
+    border-radius: 25px;
 }
 .nav-ul{
     display: flex;
@@ -34,9 +38,11 @@ li a{
     text-decoration: none;
     color: #F8FAFC;
 }
+
 li a:hover{
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #dfff00;
     font-size: 20px;
+
 }
 ul button{
     background-color: rgb(197, 245, 56);
@@ -78,15 +84,21 @@ ul button{
 .about{
     padding: 40px;
     gap: 50px;
+    background-color: #040d22;
+}
+.about-content-wrap{
     align-items: center;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
 }
+
 .about-left img{
     max-width: 500px;
     border-radius: 50px;
-
+    
 }
 .about-right{
     color: white;
@@ -110,7 +122,7 @@ ul button{
     max-width: 550px;
     gap: 25px;
     color: #F8FAFC;
-    line-height: 1.8
+    line-height: 1.6
 }
 
 .skill-card-top-row{
@@ -161,8 +173,17 @@ ul button{
     flex-direction: column;
     gap: 30px;
     padding: 40px;
-    max-width: 600px;
+    align-items: flex-end;
+    background-color: #040d22;
+    
    
+}
+.project-header{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+    max-width: 600px;
+    gap: 25px;
 }
 
 .projects-wrap{
@@ -220,6 +241,9 @@ ul button{
 
 .learning-journey{
     padding: 40px;
+    display: flex;
+    flex-direction: column;
+    
 
 }
 .journey-header{
@@ -227,8 +251,11 @@ ul button{
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
+    line-height: 1.6;
     max-width: 600px;
+    justify-content: center;
+   
 
 }
 .timeline{
@@ -242,7 +269,7 @@ ul button{
     display: flex;
     flex-direction: column;
     gap: 5px;
-    line-height: 1.4;
+    line-height: 1.6;
 }
 .timeline::before {
     content: "";
@@ -289,11 +316,13 @@ ul button{
     gap: 20px;
     padding: 40px;
     color: white;
+    background-color: #040d22;
     
 }
 .workflow-wrap{
     display: flex;
-    gap: 20px;
+    gap: 25px;
+    line-height: 1.6;
     flex-direction: row; 
 }
 .workflow-card{
@@ -314,7 +343,6 @@ ul button{
 }
 .contact{
     display: flex;
-    
     color: white;
     gap: 30px;
     justify-content: center;
@@ -325,7 +353,8 @@ ul button{
     padding: 50px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
+    line-height: 1.6;
     max-width: 800px;
 }
 .contact-wrap h2{
@@ -346,6 +375,208 @@ footer{
     color: white;
     border-top: 1px solid #dfff00;
     padding: 20px;
+    background-color: #040d22;
+}
+
+
+
+
+#about{
+    scroll-margin-top: 100px;
+}
+#skill{
+    scroll-margin-top:45px;
+}
+#projects{
+    scroll-margin-top: 140px;
+}
+#journey{
+    scroll-margin-top: 50px;
+}
+#contact{
+    scroll-margin-top: 300px ;
+}
+
+
+@media(max-width:900px){
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .about-content-wrap{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .projects{
+        display: flex;
+        align-items: center;
+    }
+    .project-header{
+        display: flex;
+        align-self: center;
+    }
+    .projects-wrap{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    .project-card{
+        display: flex;
+        align-items: center;
+        min-height: 750px;
+
+    }
+    .project-card img{
+         width: 300px;
+    }
+    #about{
+        scroll-margin-top: 150px;
+    }
+    #skill{
+        scroll-margin-top: 130px;
+    }
+    #projects{
+        scroll-margin-top: 125px;
+    }
+    #journey{
+        scroll-margin-top: 130px;
+    }
+    #contact{
+        scroll-margin-top: 0px ;
+    }
+    .workflow-wrap{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .workflow-card{
+        display: flex;
+        align-items: center;
+    }
+
+
+}
+
+@media(max-width:600px){
+    .projects-wrap{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .project-card{
+        padding: 5px;
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+    }
+    .card-btn-wrap{
+        margin-top: 10px;
+    }
+    
+}
+@media(max-width:390px){
+
+
+
+    .hero{
+        line-height: 1.4;
+
+    }
+    .hero-btn-wrap{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .about-left img{
+        width: 325px;
+        height: 325px;
+    }
+    .skill-card-top-row{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .skills-card-bottom-row{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .workflow-wrap{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .timeline::before {
+        content: "";
+        position: absolute;
+        width: 2px;
+        background-color: white;
+        top: 0;
+        bottom: 0;
+        left: 0%;
+        z-index: 0;
+       
+    }
+    .timeline-item  {
+        position: relative;
+        width: 50%;
+        padding: 20px 40px;
+        z-index: 1;
+    }
+    .timeline-content{
+        display: flex;
+        width: 100%;
+    }
+    .timeline-item.left {
+        left: 0px;
+        width: 100%;
+    }
+    .timeline-item.right {
+        left: 0%;
+        width: 100%;
+    }
+    .timeline-item.left::after {
+        right: 302px;
+    }
+    .timeline-item.right::after {
+        left: -6px;
+    }
+    
+}
+
+@media(max-width:2500px){
+    
+    .content-wrap{
+        
+        
+        
+    }
 }
 
 
