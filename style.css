@@ -263,6 +263,9 @@
     object-fit: contain;
     border-radius: 20px;
   }
+  .project-card-ul{
+    padding: 10px;
+  }
   
   .card-btn-wrap {
     display: flex;
@@ -279,6 +282,10 @@
     color: black;
     border-radius: 20px;
   }
+  .card-btn-left a {
+    color: black;
+  }
+  
   
   .card-btn-right {
     padding: 10px 40px;
