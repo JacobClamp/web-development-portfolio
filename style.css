@@ -765,7 +765,7 @@
   
   /* SMALL PHONE */
   
-  @media (max-width: 438px) {
+  @media (max-width: 440px) {
   
     .about {
         padding-left: 20px;
@@ -790,6 +790,16 @@
     .card-btn-wrap button {
         padding: 10px 12px;
     }
+    .nav-ul {
+      right: -100%;
+      width: 100%;
+      min-height: 100vh;
+      padding: 100px 40px;
+  }
+
+  .nav-ul.active {
+      right: 0;
+  }
   }
   
   
@@ -816,16 +826,5 @@
   
     .workflow-wrap {
         grid-template-columns: 1fr;
-    }
-  
-    .nav-ul {
-        right: -100%;
-        width: 100%;
-        min-height: 100vh;
-        padding: 100px 40px;
-    }
-  
-    .nav-ul.active {
-        right: 0;
     }
   }
