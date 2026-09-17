@@ -515,6 +515,9 @@
   
     .hamburger {
         display: block;
+        position: fixed;
+        top: 30px;
+        right: 30px;
         z-index: 5;
     }
   
@@ -800,6 +803,7 @@
   .nav-ul.active {
       right: 0;
   }
+  
   }
   
   
