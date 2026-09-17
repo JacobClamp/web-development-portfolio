@@ -780,6 +780,9 @@
         max-width: 325px;
         height: auto;
     }
+    .hero-btn-wrap{
+      justify-content: center;
+    }
   
     .projects {
         padding-left: 15px;
